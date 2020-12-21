@@ -15,7 +15,7 @@ You will also learn about n SVG icon library call [FontAwesome](http://fontaweso
 Below are image layouts of the finished projects.
 
 Responsive desktop Version
-[desktop image]("./assets/images/Screenshot(58).png")
+![desktop image](./assets/images/Screenshot(58).png)
 
 Responsive mobile version
-[mobile image]("./assets/images/Screenshot(59).png")
+![mobile image](./assets/images/Screenshot(59).png)
