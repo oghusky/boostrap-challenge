@@ -19,3 +19,5 @@ Responsive desktop Version
 
 Responsive mobile version
 ![](assets/images/mobile.png)
+
+[Google Slides](https://docs.google.com/presentation/d/1CSAtHvMNYnSyPmiGtBFqj5VHd6va1T_-dLgJTh3S-cc/edit?usp=sharing)
