@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Bootstrap v5 Challenge</title>
+</head>
+
+<body>
+  <div class="row no-gutters mb-5">
+    <!-- sidebar -->
+    <aside class="col-md-3">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <i class="fas fa-bars"></i>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/log_hex_dark_32x32.png" alt="cc_nav_logo" width="32" height="32"
+              class="d-inline-block align-top">
+            <b>CCTube</b>
+          </a>
+        </div>
+      </nav>
+      <div class="container">
+        <li class="nav-link"><i class="fas fa-home"></i> Home</li>
+        <li class="nav-link"><i class="fas fa-plus-square"></i> Subscriptions</li>
+        <li class="nav-link"><i class="fas fa-fire"></i> Trending</li>
+      </div>
+      <hr />
+      <div class="container">
+        <li class="nav-link"><i class="fas fa-book"></i> Library</li>
+        <li class="nav-link"><i class="fas fa-history"></i> History</li>
+        <li class="nav-link"><i class="fas fa-video"></i> My Videos</li>
+        <li class="nav-link"><i class="fas fa-clock"></i> Later</li>
+        <li class="nav-link"><i class="fas fa-thumbs-up"></i> Likes</li>
+      </div>
+    </aside>
+    <main class="col-md-9">
+      <!-- search bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light search-bar">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="input-group px-3">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+            </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-cloud-upload-alt"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-th"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img class="img-fluid" src="./assets/images/default-avatar.jpg"
+                    style="border-radius:50%;" alt="avatar_img" height="50" width="50" /></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <!-- chips -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light chip-bar">
+        <button class="btn btn-outline-dark mx-1">All</button>
+        <button class="btn btn-outline-dark mx-1">History</button>
+        <button class="btn btn-outline-dark mx-1">Matrix</button>
+        <button class="btn btn-outline-dark mx-1">Star Wars</button>
+        <button class="btn btn-outline-dark mx-1">Coding</button>
+        <button class="btn btn-outline-dark mx-1">Flat Earth</button>
+        <button class="btn btn-outline-dark mx-1">Baby Yoda</button>
+        <button class="btn btn-outline-dark mx-1">The Mandalorian</button>
+        <button class="btn btn-outline-dark mx-1">Chicken Biscuits</button>
+      </nav>
+      <section class="row vid-cards my-1">
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 p-3" loading="lazy">
+          <div class="inner-vid-card">
+            <img src="./assets/images/bs_place_img.png" class="img-fluid" id="vid-img" alt="vid_img" />
+            <div class="row my-1">
+              <div class="col-sm-3">
+                <img src="./assets/images/log_hex_dark_32x32.png" class="pr-0" />
+              </div>
+              <div class="col-md-9 col-sm-6 pl-0">
+                <small class="">
+                  <h6>Video Title</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="fixed-bottom bg-dark text-light">
+    <p class="text-center p-1">CCTUBE &copy;2020</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

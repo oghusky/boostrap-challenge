@@ -1,0 +1,32 @@
+/* aside */
+nav.navbar{
+  background-color: transparent !important;
+}
+aside .container i.fas{
+  color:#4197de;
+}
+/* video cards */
+.inner-vid-card{
+  max-width: 250px;
+  margin: 0 auto;
+}
+img#vid-img.img-fluid{
+  display:block !important;
+  margin: 0 auto !important;
+}
+.col-sm-6.pl-0{
+  padding-left: 0 !important;
+}
+div.col-sm-9 small p{
+  width: 100%;
+}
+/* media queries */
+/* 425px */
+@media screen and (max-width:425px){
+  .chip-bar{
+    display:none;
+  }
+  aside :nth-child(2){
+    display: none;
+  }
+}
